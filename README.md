@@ -1,57 +1,20 @@
 # Sprint Challenge: Computer Architecture - Conditional Jumps
 
-This challenge allows you to practice the concepts and techniques learned over
-the past week and apply them in a concrete project.
-During this Sprint, you studied CPU components, number bases, bitwise
-operations, CPU stack, interrupts, and subroutines.
-
 In your challenge this week, you will demonstrate proficiency by adding _conditional jumps_ to your LS-8 emulator as well as answering a few questions during a one-on-one session with a PM.
-
-## Instructions
-
-**Read these instructions carefully. Understand exactly what is expected
-_before_ starting this Sprint Challenge.**
-
-This is an individual assessment. All work must be your own. Your challenge
-score is a measure of your ability to work independently using the material
-covered through this sprint. You need to demonstrate proficiency in the concepts
-and objectives introduced and practiced in preceding days.
-
-You are not allowed to collaborate during the Sprint Challenge. However, you are
-encouraged to follow the twenty-minute rule and seek support from your PM and
-Instructor in your cohort help channel on Slack. Your work reflects your
-proficiency with Computer Architecture and your command of the related concepts
-and techniques.
-
-You have three hours to complete this challenge. Plan your time accordingly.
-
-## Commits
-
-Commit your code regularly and meaningfully. This helps both you (in case you
-ever need to return to old code for any number of reasons and your project manager.
 
 ## Description
 
 In this code challenge, you will add _conditional jumps_ (AKA _conditional branching_) to your LS-8 emulator.
 
-## Project Set Up
-
-Options for submission, whichever is easier for you:
-
-* Copy your source into this repo, or...
-
-* Submit a PR for the Sprint Challenge from the `Computer-Architecture` repo
-  you've been using all along.
-
 ## Minimum Viable Product
 
 Your finished project must include all of the following requirements:
 
-- [ ] Add the `CMP` instruction and `equal` flag to your LS-8.
+- [x] Add the `CMP` instruction and `equal` flag to your LS-8.
 
-- [ ] Add the `JMP` instruction.
+- [x] Add the `JMP` instruction.
 
-- [ ] Add the `JEQ` and `JNE` instructions.
+- [x] Add the `JEQ` and `JNE` instructions.
 
 [See the LS-8 spec for details](https://github.com/LambdaSchool/Computer-Architecture/blob/master/LS8-spec.md)
 
@@ -168,7 +131,7 @@ goals may or may not be things you have learned in this module but they build on
 the material you just studied. Time allowing, stretch your limits and see if you
 can deliver on the following optional goals:
 
-- [ ] Add the ALU operations: `AND` `OR` `XOR` `NOT` `SHL` `SHR` `MOD`
+- [x] Add the ALU operations: `AND` `OR` `XOR` `NOT` `SHL` `SHR` `MOD`
 - [ ] Add an `ADDI` extension instruction to add an immediate value to a register
 - [ ] Add timer interrupts
 - [ ] Add keyboard interrupts
